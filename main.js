@@ -13,6 +13,15 @@ function hideModal(event) {
 function addEntry(event) {
   hideModal();
 
+  var entry = {
+    day: $form.elements.day.value,
+    time: $form.elements.time.value,
+    description: $form.elements.description.value,
+    entryID: data.entryID
+  }
+  data.entryID++;
+  console.log('hi', data.entryID);
+  data.entries.push(entry);
 }
 
 $addEntryBtn.addEventListener('click', showModal);
