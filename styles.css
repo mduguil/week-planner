@@ -9,11 +9,32 @@ body {
 .row {
   display: flex;
   justify-content: center;
+  margin: 2rem 0;
+}
+
+.days-container {
+  justify-content: space-evenly;
+}
+
+.days-container button {
+  width: 130px;
+  height: 110px;
+  transition: background-color 0.7s ease-in-out;
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ddd;
 }
 
 .add-btn {
   background-color: #95bcf2;
-  cursor: pointer;
   padding: 10px 40px;
   box-shadow: 2px 2px 3px black;
+}
+
+.hidden {
+  display: none;
 }
