@@ -30,17 +30,23 @@ button:hover {
 }
 
 .add-btn {
-  background-color: #95bcf2;
   padding: 10px 40px;
-  box-shadow: 2px 2px 3px black;
 }
 
-.hidden {
-  display: none;
+.add-btn:hover {
+  background-color: #95bcf2;
 }
 
 .modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal {
@@ -50,6 +56,35 @@ button:hover {
   align-items: center;
   z-index: 7;
   background-color: white;
-  width: 300px;
+  width: 600px;
   height: 300px;
+}
+
+select {
+  margin-right: 1rem;
+}
+
+#text-area {
+  width: 500px;
+  height: 130px;
+  margin: 1rem 0;
+}
+
+.submit-btn-area {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.add-btn,
+.submit-btn {
+  box-shadow: 2px 2px 3px black;
+  background-color: #fff;
+}
+
+.modal > h1 {
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
 }
