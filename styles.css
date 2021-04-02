@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn {
+  background-color: #95bcf2;
+  cursor: pointer;
+  padding: 10px 40px;
+  box-shadow: 2px 2px 3px black;
+}
