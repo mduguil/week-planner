@@ -41,13 +41,6 @@ button:hover {
 
 .modal-container {
   position: fixed;
-
-  /* top: 0; */
-
-  top: 50%;
-  left: 50%;
-  margin-left: -50%;
-  margin-top: -50%;
 }
 
 .modal {
