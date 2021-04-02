@@ -1,7 +1,7 @@
 var data = {
   entries: [],
   entryID: 1
-}
+};
 
 var previousDataJSON = localStorage.getItem('weekly-planner');
 
