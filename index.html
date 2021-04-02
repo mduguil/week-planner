@@ -26,20 +26,54 @@
     <button class="add-btn">Add Entry</button>
   </div>
 
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+
   <div class="modal-container hidden">
     <div class="modal">
       <h1>Add Entry</h1>
       <form>
         <div class="drop-container">
-          <select name="" id="">
+          <select name="" id="" required>
             <option value="">Day of Week</option>
+            <option value="">Sunday</option>
+            <option value="">Monday</option>
+            <option value="">Tuesday</option>
+            <option value="">Wednesday</option>
+            <option value="">Thursday</option>
+            <option value="">Friday</option>
+            <option value="">Saturday</option>
           </select>
-          <select name="" id="">
+          <select name="" id="" required>
             <option value="">Time</option>
+            <option value="">Morning</option>
+            <option value="">Afternoon</option>
+            <option value="">Evening</option>
+            <option value="">Night</option>
           </select>
         </div>
         <div class="text-container">
-          <textarea name="" id="text-area" placeholder="Description"></textarea>
+          <textarea name="" id="text-area" placeholder="Description" required></textarea>
         </div>
         <div class="submit-btn-area">
           <button class="submit-btn">Submit</button>

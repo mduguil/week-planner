@@ -29,6 +29,12 @@ button:hover {
   background-color: #ddd;
 }
 
+.add-btn,
+.submit-btn {
+  box-shadow: 2px 2px 3px black;
+  background-color: #fff;
+}
+
 .add-btn {
   padding: 10px 40px;
 }
@@ -75,16 +81,14 @@ select {
   margin-bottom: 2rem;
 }
 
-.add-btn,
-.submit-btn {
-  box-shadow: 2px 2px 3px black;
-  background-color: #fff;
-}
-
 .modal > h1 {
   margin-top: 15px;
 }
 
 .hidden {
   display: none;
+}
+
+table {
+  border: 2px solid black;
 }
