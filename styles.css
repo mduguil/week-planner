@@ -91,4 +91,19 @@ select {
 
 table {
   border: 2px solid black;
+  width: 600px;
+  border-spacing: 0;
+}
+
+th {
+  background-color: #ccc;
+}
+
+th:first-child,
+td:first-child {
+  border-right: 2px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
 }
